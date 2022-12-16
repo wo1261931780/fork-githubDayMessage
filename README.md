@@ -1,47 +1,27 @@
-# daily_reminder
-给女朋友做的微信天气推送
+示例模板：
 
-教程链接
+今天是 {{ date.DATA }} {{ week_day.DATA }}
 
-https://www.coolapk.com/feed/38579891?shareKey=NGI3ZGZlZTM4MDBjNjMwMzdlM2M~&shareUid=3198334&shareFrom=com.coolapk.app_4.10
+今天天气：{{ weather.DATA }}
 
+湿度：{{ humidity.DATA }}
 
+风向风力：{{ wind.DATA }}
 
+空气指数：{{ air_data.DATA }}
 
-网址1   http://mp.weixin.qq.com/debug/cgi-bin/sandboxinfo?action=showinfo&t=sandbox/index
-网址2   https://id.qweather.com/
+空气质量：{{ air_quality.DATA }}
 
+当前温度：{{ temperature.DATA }}
 
-模板内容如下：
+最低气温：{{ lowest.DATA }}
 
-{{date.DATA}} 
+最高气温：{{ highest.DATA }}
 
-地区：{{region.DATA}} 
+我们已经相恋 {{ love_days.DATA }} 天啦
 
-天气：{{weather.DATA}} 
+距离你的生日还有：{{ birthday_left.DATA }} 天
 
-气温：{{temp.DATA}} 
+距离我的生日还有：{{ birthday_left_1.DATA }} 天
 
-风向：{{wind_dir.DATA}} 
-
-今天是我们恋爱的第{{love_day.DATA}}天 
-
-{{birthday1.DATA}} 
-{{birthday2.DATA}}
-
-
-{{note_en.DATA}} 
-{{note_ch.DATA}}
-
-
-天气key生成教程
-![image](https://raw.githubusercontent.com/limoest/daily_reminder/main/%E5%92%8C%E9%A3%8E%E5%A4%A9%E6%B0%94key%E7%94%9F%E6%88%90.png)
-
-
-可以去天行数据申请各种各样的接口用来推送  
-![image](https://raw.githubusercontent.com/limoest/daily_reminder/main/others/Snipaste_2022-08-24_12-13-19.png)
-![image](https://raw.githubusercontent.com/limoest/daily_reminder/main/others/Snipaste.png)
-
-
-
-有别的建议欢迎留言
+{{ words.DATA }}
